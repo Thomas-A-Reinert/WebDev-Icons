@@ -109,10 +109,10 @@ Search for an Entry in the "*Window*" or "*Insert*" Menus and select the "*WebDe
 
 ## Roadmap
 
-* Adjustment / Finetuning of Icon Sizes
-* Add SVG icon
-* Add SVG Animation icon
-* Add WCAG / WAI / BITV icons
+* ~~Adjustment / Finetuning of Icon Sizes~~ ***Fixed***
+* Add SVG Icon
+* Add SVG Animation Icon
+* Add WCAG / WAI / BITV Icons
 * Consider switching from `<i>`-Tags to Classnames only
 * Improve SVGs to include Classnames
 
