@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'WebDev-Icons';
-  src:  url('fonts/WebDev-Icons.eot?ozsrim');
-  src:  url('fonts/WebDev-Icons.eot?ozsrim#iefix') format('embedded-opentype'),
-    url('fonts/WebDev-Icons.ttf?ozsrim') format('truetype'),
-    url('fonts/WebDev-Icons.woff?ozsrim') format('woff'),
-    url('fonts/WebDev-Icons.svg?ozsrim#WebDev-Icons') format('svg');
+  src:  url('fonts/WebDev-Icons.eot?z5lfsa');
+  src:  url('fonts/WebDev-Icons.eot?z5lfsa#iefix') format('embedded-opentype'),
+    url('fonts/WebDev-Icons.ttf?z5lfsa') format('truetype'),
+    url('fonts/WebDev-Icons.woff?z5lfsa') format('woff'),
+    url('fonts/WebDev-Icons.svg?z5lfsa#WebDev-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -44,9 +44,6 @@ i {
 }
 .webdev-atom:before {
   content: "\e906";
-}
-.webdev-aws:before {
-  content: "\e907";
 }
 .webdev-babel:before {
   content: "\e908";
@@ -132,14 +129,14 @@ i {
 .webdev-git-compare:before {
   content: "\e923";
 }
-.webdev-github:before {
-  content: "\e924";
-}
 .webdev-git-merge:before {
   content: "\e925";
 }
 .webdev-git-pull-request:before {
   content: "\e926";
+}
+.webdev-github:before {
+  content: "\e924";
 }
 .webdev-gnu:before {
   content: "\e927";
@@ -300,9 +297,6 @@ i {
   color: rgb(255, 255, 255);
 }
 .webdev-safari:before {
-  content: "\e958";
-}
-.webdev-safari1:before {
   content: "\e959";
 }
 .webdev-sass:before {
@@ -321,9 +315,9 @@ i {
   content: "\e95e";
 }
 .webdev-sketch:before {
-  content: "\e95f";
+  content: "\e907";
 }
-.webdev-slack-plain:before {
+.webdev-slack:before {
   content: "\e960";
 }
 .webdev-smashing_magazine:before {
@@ -355,9 +349,6 @@ i {
 }
 .webdev-trello:before {
   content: "\e96a";
-}
-.webdev-trello1:before {
-  content: "\e96b";
 }
 .webdev-twitter:before {
   content: "\e96c";

@@ -1,4 +1,4 @@
-.icon {
+.webdev {
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -14,10 +14,6 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
-
-.webdev-aws {
-  width: 1.0625em;
-}
 
 .webdev-composer {
   width: 0.84375em;

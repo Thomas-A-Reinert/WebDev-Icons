@@ -40,16 +40,16 @@ Adjust paths in your *webdev-git.css* if required.
 * Add the respective icon using an `<i>`-Tag
 
 ```html
-  <!--  Example using Github-Icon -->
-  <i class="webdev-github"></i>
+<!--  Example using Github-Icon -->
+<i class="webdev-github"></i>
 
-    <!--
-        Consider improving accessibility!
-        In case you´re using e.g. Bootstrap you should use Icons this way:
-    -->
-  <i class="webdev-github">
-      <span class="sr-only">Git</span>
-  </i>
+<!--
+    Consider improving accessibility!
+    In case you´re using e.g. Bootstrap you should use Icons this way:
+-->
+<i class="webdev-github">
+    <span class="sr-only">Git</span>
+</i>
 
 ```
 

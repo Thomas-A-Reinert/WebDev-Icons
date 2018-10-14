@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ozsrim');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ozsrim#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ozsrim') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ozsrim') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ozsrim##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?z5lfsa');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?z5lfsa#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?z5lfsa') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?z5lfsa') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?z5lfsa##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -59,11 +59,6 @@ i {
 .webdev-atom {
   &:before {
     content: $webdev-atom; 
-  }
-}
-.webdev-aws {
-  &:before {
-    content: $webdev-aws; 
   }
 }
 .webdev-babel {
@@ -206,11 +201,6 @@ i {
     content: $webdev-git-compare; 
   }
 }
-.webdev-github {
-  &:before {
-    content: $webdev-github; 
-  }
-}
 .webdev-git-merge {
   &:before {
     content: $webdev-git-merge; 
@@ -219,6 +209,11 @@ i {
 .webdev-git-pull-request {
   &:before {
     content: $webdev-git-pull-request; 
+  }
+}
+.webdev-github {
+  &:before {
+    content: $webdev-github; 
   }
 }
 .webdev-gnu {
@@ -482,11 +477,6 @@ i {
     content: $webdev-safari; 
   }
 }
-.webdev-safari1 {
-  &:before {
-    content: $webdev-safari1; 
-  }
-}
 .webdev-sass {
   &:before {
     content: $webdev-sass; 
@@ -517,9 +507,9 @@ i {
     content: $webdev-sketch; 
   }
 }
-.webdev-slack-plain {
+.webdev-slack {
   &:before {
-    content: $webdev-slack-plain; 
+    content: $webdev-slack; 
   }
 }
 .webdev-smashing_magazine {
@@ -570,11 +560,6 @@ i {
 .webdev-trello {
   &:before {
     content: $webdev-trello; 
-  }
-}
-.webdev-trello1 {
-  &:before {
-    content: $webdev-trello1; 
   }
 }
 .webdev-twitter {
