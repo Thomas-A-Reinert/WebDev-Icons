@@ -1,0 +1,412 @@
+@font-face {
+  font-family: 'WebDev-Icons';
+  src:  url('fonts/WebDev-Icons.eot?ozsrim');
+  src:  url('fonts/WebDev-Icons.eot?ozsrim#iefix') format('embedded-opentype'),
+    url('fonts/WebDev-Icons.ttf?ozsrim') format('truetype'),
+    url('fonts/WebDev-Icons.woff?ozsrim') format('woff'),
+    url('fonts/WebDev-Icons.svg?ozsrim#WebDev-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'WebDev-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.webdev-accessibility:before {
+  content: "\e900";
+}
+.webdev-amazonwebservices:before {
+  content: "\e901";
+}
+.webdev-angular:before {
+  content: "\e902";
+}
+.webdev-apache:before {
+  content: "\e903";
+}
+.webdev-apple:before {
+  content: "\e904";
+}
+.webdev-atlassian:before {
+  content: "\e905";
+}
+.webdev-atom:before {
+  content: "\e906";
+}
+.webdev-aws:before {
+  content: "\e907";
+}
+.webdev-babel:before {
+  content: "\e908";
+}
+.webdev-bootstrap:before {
+  content: "\e909";
+}
+.webdev-bower:before {
+  content: "\e90a";
+}
+.webdev-brackets:before {
+  content: "\e90b";
+}
+.webdev-chrome:before {
+  content: "\e90c";
+}
+.webdev-codepen:before {
+  content: "\e90d";
+}
+.webdev-codrops:before {
+  content: "\e90e";
+}
+.webdev-compass:before {
+  content: "\e90f";
+}
+.webdev-composer:before {
+  content: "\e910";
+}
+.webdev-confluence:before {
+  content: "\e911";
+}
+.webdev-contao:before {
+  content: "\e912";
+}
+.webdev-craftcms:before {
+  content: "\e913";
+}
+.webdev-creativecommons:before {
+  content: "\e914";
+}
+.webdev-css3:before {
+  content: "\e915";
+}
+.webdev-database:before {
+  content: "\e916";
+}
+.webdev-docker:before {
+  content: "\e917";
+}
+.webdev-dreamweaver:before {
+  content: "\e918";
+}
+.webdev-drupal:before {
+  content: "\e919";
+}
+.webdev-electron:before {
+  content: "\e91a";
+}
+.webdev-facebook:before {
+  content: "\e91b";
+}
+.webdev-firebase:before {
+  content: "\e91c";
+}
+.webdev-firefox:before {
+  content: "\e91d";
+}
+.webdev-foundation:before {
+  content: "\e91e";
+}
+.webdev-gimp:before {
+  content: "\e91f";
+}
+.webdev-git:before {
+  content: "\e920";
+}
+.webdev-git-branch:before {
+  content: "\e921";
+}
+.webdev-git-commit:before {
+  content: "\e922";
+}
+.webdev-git-compare:before {
+  content: "\e923";
+}
+.webdev-github:before {
+  content: "\e924";
+}
+.webdev-git-merge:before {
+  content: "\e925";
+}
+.webdev-git-pull-request:before {
+  content: "\e926";
+}
+.webdev-gnu:before {
+  content: "\e927";
+}
+.webdev-google:before {
+  content: "\e928";
+}
+.webdev-google-analytics:before {
+  content: "\e929";
+}
+.webdev-google-cloud-platform:before {
+  content: "\e92a";
+}
+.webdev-google-plus:before {
+  content: "\e92b";
+}
+.webdev-google-wordmark:before {
+  content: "\e92c";
+}
+.webdev-grunt:before {
+  content: "\e92d";
+}
+.webdev-gulp:before {
+  content: "\e92e";
+}
+.webdev-html5:before {
+  content: "\e92f";
+}
+.webdev-html5-3d-effects:before {
+  content: "\e930";
+}
+.webdev-html5-connectivity:before {
+  content: "\e931";
+}
+.webdev-html5-device-access:before {
+  content: "\e932";
+}
+.webdev-html5-multimedia:before {
+  content: "\e933";
+}
+.webdev-ie:before {
+  content: "\e934";
+}
+.webdev-illustrator:before {
+  content: "\e935";
+}
+.webdev-inkscape:before {
+  content: "\e936";
+}
+.webdev-internet-security:before {
+  content: "\e937";
+}
+.webdev-javascript:before {
+  content: "\e938";
+}
+.webdev-jenkins:before {
+  content: "\e939";
+}
+.webdev-jira:before {
+  content: "\e93a";
+}
+.webdev-joomla:before {
+  content: "\e93b";
+}
+.webdev-jquery:before {
+  content: "\e93c";
+}
+.webdev-jquery-ui:before {
+  content: "\e93d";
+}
+.webdev-laravel:before {
+  content: "\e93e";
+}
+.webdev-less:before {
+  content: "\e93f";
+}
+.webdev-linkedin:before {
+  content: "\e940";
+}
+.webdev-linux:before {
+  content: "\e941";
+}
+.webdev-mailchimp:before {
+  content: "\e942";
+}
+.webdev-markdown:before {
+  content: "\e943";
+}
+.webdev-materializecss:before {
+  content: "\e944";
+}
+.webdev-modernizr:before {
+  content: "\e945";
+}
+.webdev-mozilla:before {
+  content: "\e946";
+}
+.webdev-mysql:before {
+  content: "\e947";
+}
+.webdev-nginx:before {
+  content: "\e948";
+}
+.webdev-nodejs:before {
+  content: "\e949";
+}
+.webdev-npm:before {
+  content: "\e94a";
+}
+.webdev-opensource:before {
+  content: "\e94b";
+}
+.webdev-opera:before {
+  content: "\e94c";
+}
+.webdev-photoshop:before {
+  content: "\e94d";
+}
+.webdev-php:before {
+  content: "\e94e";
+}
+.webdev-phpstorm:before {
+  content: "\e94f";
+}
+.webdev-preact:before {
+  content: "\e950";
+}
+.webdev-react:before {
+  content: "\e951";
+}
+.webdev-responsive .path1:before {
+  content: "\e952";
+  color: rgb(0, 0, 0);
+}
+.webdev-responsive .path2:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.webdev-responsive .path3:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.webdev-responsive .path4:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.webdev-responsive .path5:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.webdev-responsive .path6:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.webdev-safari:before {
+  content: "\e958";
+}
+.webdev-safari1:before {
+  content: "\e959";
+}
+.webdev-sass:before {
+  content: "\e95a";
+}
+.webdev-scrum:before {
+  content: "\e95b";
+}
+.webdev-semantic-ui:before {
+  content: "\e95c";
+}
+.webdev-semantic-web:before {
+  content: "\e95d";
+}
+.webdev-seo:before {
+  content: "\e95e";
+}
+.webdev-sketch:before {
+  content: "\e95f";
+}
+.webdev-slack-plain:before {
+  content: "\e960";
+}
+.webdev-smashing_magazine:before {
+  content: "\e961";
+}
+.webdev-sourcetree:before {
+  content: "\e962";
+}
+.webdev-sqllite:before {
+  content: "\e963";
+}
+.webdev-ssh:before {
+  content: "\e964";
+}
+.webdev-stackoverflow:before {
+  content: "\e965";
+}
+.webdev-sublime:before {
+  content: "\e966";
+}
+.webdev-symfony:before {
+  content: "\e967";
+}
+.webdev-terminal:before {
+  content: "\e968";
+}
+.webdev-travis:before {
+  content: "\e969";
+}
+.webdev-trello:before {
+  content: "\e96a";
+}
+.webdev-trello1:before {
+  content: "\e96b";
+}
+.webdev-twitter:before {
+  content: "\e96c";
+}
+.webdev-typescript:before {
+  content: "\e96d";
+}
+.webdev-typo3:before {
+  content: "\e96e";
+}
+.webdev-visualstudio:before {
+  content: "\e96f";
+}
+.webdev-vuejs:before {
+  content: "\e970";
+}
+.webdev-vuejs-color .path1:before {
+  content: "\e971";
+  color: rgb(53, 73, 94);
+}
+.webdev-vuejs-color .path2:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(65, 184, 131);
+}
+.webdev-w3c:before {
+  content: "\e973";
+}
+.webdev-webpack:before {
+  content: "\e974";
+}
+.webdev-windows:before {
+  content: "\e975";
+}
+.webdev-woocommerce:before {
+  content: "\e976";
+}
+.webdev-wordpress:before {
+  content: "\e977";
+}
+.webdev-xing:before {
+  content: "\e978";
+}
+.webdev-xml:before {
+  content: "\e979";
+}
+.webdev-yarn:before {
+  content: "\e97a";
+}
+.webdev-yeoman:before {
+  content: "\e97b";
+}

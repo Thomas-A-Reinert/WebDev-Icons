@@ -1,0 +1,663 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ozsrim');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ozsrim#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ozsrim') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ozsrim') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ozsrim##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.webdev-accessibility {
+  &:before {
+    content: $webdev-accessibility; 
+  }
+}
+.webdev-amazonwebservices {
+  &:before {
+    content: $webdev-amazonwebservices; 
+  }
+}
+.webdev-angular {
+  &:before {
+    content: $webdev-angular; 
+  }
+}
+.webdev-apache {
+  &:before {
+    content: $webdev-apache; 
+  }
+}
+.webdev-apple {
+  &:before {
+    content: $webdev-apple; 
+  }
+}
+.webdev-atlassian {
+  &:before {
+    content: $webdev-atlassian; 
+  }
+}
+.webdev-atom {
+  &:before {
+    content: $webdev-atom; 
+  }
+}
+.webdev-aws {
+  &:before {
+    content: $webdev-aws; 
+  }
+}
+.webdev-babel {
+  &:before {
+    content: $webdev-babel; 
+  }
+}
+.webdev-bootstrap {
+  &:before {
+    content: $webdev-bootstrap; 
+  }
+}
+.webdev-bower {
+  &:before {
+    content: $webdev-bower; 
+  }
+}
+.webdev-brackets {
+  &:before {
+    content: $webdev-brackets; 
+  }
+}
+.webdev-chrome {
+  &:before {
+    content: $webdev-chrome; 
+  }
+}
+.webdev-codepen {
+  &:before {
+    content: $webdev-codepen; 
+  }
+}
+.webdev-codrops {
+  &:before {
+    content: $webdev-codrops; 
+  }
+}
+.webdev-compass {
+  &:before {
+    content: $webdev-compass; 
+  }
+}
+.webdev-composer {
+  &:before {
+    content: $webdev-composer; 
+  }
+}
+.webdev-confluence {
+  &:before {
+    content: $webdev-confluence; 
+  }
+}
+.webdev-contao {
+  &:before {
+    content: $webdev-contao; 
+  }
+}
+.webdev-craftcms {
+  &:before {
+    content: $webdev-craftcms; 
+  }
+}
+.webdev-creativecommons {
+  &:before {
+    content: $webdev-creativecommons; 
+  }
+}
+.webdev-css3 {
+  &:before {
+    content: $webdev-css3; 
+  }
+}
+.webdev-database {
+  &:before {
+    content: $webdev-database; 
+  }
+}
+.webdev-docker {
+  &:before {
+    content: $webdev-docker; 
+  }
+}
+.webdev-dreamweaver {
+  &:before {
+    content: $webdev-dreamweaver; 
+  }
+}
+.webdev-drupal {
+  &:before {
+    content: $webdev-drupal; 
+  }
+}
+.webdev-electron {
+  &:before {
+    content: $webdev-electron; 
+  }
+}
+.webdev-facebook {
+  &:before {
+    content: $webdev-facebook; 
+  }
+}
+.webdev-firebase {
+  &:before {
+    content: $webdev-firebase; 
+  }
+}
+.webdev-firefox {
+  &:before {
+    content: $webdev-firefox; 
+  }
+}
+.webdev-foundation {
+  &:before {
+    content: $webdev-foundation; 
+  }
+}
+.webdev-gimp {
+  &:before {
+    content: $webdev-gimp; 
+  }
+}
+.webdev-git {
+  &:before {
+    content: $webdev-git; 
+  }
+}
+.webdev-git-branch {
+  &:before {
+    content: $webdev-git-branch; 
+  }
+}
+.webdev-git-commit {
+  &:before {
+    content: $webdev-git-commit; 
+  }
+}
+.webdev-git-compare {
+  &:before {
+    content: $webdev-git-compare; 
+  }
+}
+.webdev-github {
+  &:before {
+    content: $webdev-github; 
+  }
+}
+.webdev-git-merge {
+  &:before {
+    content: $webdev-git-merge; 
+  }
+}
+.webdev-git-pull-request {
+  &:before {
+    content: $webdev-git-pull-request; 
+  }
+}
+.webdev-gnu {
+  &:before {
+    content: $webdev-gnu; 
+  }
+}
+.webdev-google {
+  &:before {
+    content: $webdev-google; 
+  }
+}
+.webdev-google-analytics {
+  &:before {
+    content: $webdev-google-analytics; 
+  }
+}
+.webdev-google-cloud-platform {
+  &:before {
+    content: $webdev-google-cloud-platform; 
+  }
+}
+.webdev-google-plus {
+  &:before {
+    content: $webdev-google-plus; 
+  }
+}
+.webdev-google-wordmark {
+  &:before {
+    content: $webdev-google-wordmark; 
+  }
+}
+.webdev-grunt {
+  &:before {
+    content: $webdev-grunt; 
+  }
+}
+.webdev-gulp {
+  &:before {
+    content: $webdev-gulp; 
+  }
+}
+.webdev-html5 {
+  &:before {
+    content: $webdev-html5; 
+  }
+}
+.webdev-html5-3d-effects {
+  &:before {
+    content: $webdev-html5-3d-effects; 
+  }
+}
+.webdev-html5-connectivity {
+  &:before {
+    content: $webdev-html5-connectivity; 
+  }
+}
+.webdev-html5-device-access {
+  &:before {
+    content: $webdev-html5-device-access; 
+  }
+}
+.webdev-html5-multimedia {
+  &:before {
+    content: $webdev-html5-multimedia; 
+  }
+}
+.webdev-ie {
+  &:before {
+    content: $webdev-ie; 
+  }
+}
+.webdev-illustrator {
+  &:before {
+    content: $webdev-illustrator; 
+  }
+}
+.webdev-inkscape {
+  &:before {
+    content: $webdev-inkscape; 
+  }
+}
+.webdev-internet-security {
+  &:before {
+    content: $webdev-internet-security; 
+  }
+}
+.webdev-javascript {
+  &:before {
+    content: $webdev-javascript; 
+  }
+}
+.webdev-jenkins {
+  &:before {
+    content: $webdev-jenkins; 
+  }
+}
+.webdev-jira {
+  &:before {
+    content: $webdev-jira; 
+  }
+}
+.webdev-joomla {
+  &:before {
+    content: $webdev-joomla; 
+  }
+}
+.webdev-jquery {
+  &:before {
+    content: $webdev-jquery; 
+  }
+}
+.webdev-jquery-ui {
+  &:before {
+    content: $webdev-jquery-ui; 
+  }
+}
+.webdev-laravel {
+  &:before {
+    content: $webdev-laravel; 
+  }
+}
+.webdev-less {
+  &:before {
+    content: $webdev-less; 
+  }
+}
+.webdev-linkedin {
+  &:before {
+    content: $webdev-linkedin; 
+  }
+}
+.webdev-linux {
+  &:before {
+    content: $webdev-linux; 
+  }
+}
+.webdev-mailchimp {
+  &:before {
+    content: $webdev-mailchimp; 
+  }
+}
+.webdev-markdown {
+  &:before {
+    content: $webdev-markdown; 
+  }
+}
+.webdev-materializecss {
+  &:before {
+    content: $webdev-materializecss; 
+  }
+}
+.webdev-modernizr {
+  &:before {
+    content: $webdev-modernizr; 
+  }
+}
+.webdev-mozilla {
+  &:before {
+    content: $webdev-mozilla; 
+  }
+}
+.webdev-mysql {
+  &:before {
+    content: $webdev-mysql; 
+  }
+}
+.webdev-nginx {
+  &:before {
+    content: $webdev-nginx; 
+  }
+}
+.webdev-nodejs {
+  &:before {
+    content: $webdev-nodejs; 
+  }
+}
+.webdev-npm {
+  &:before {
+    content: $webdev-npm; 
+  }
+}
+.webdev-opensource {
+  &:before {
+    content: $webdev-opensource; 
+  }
+}
+.webdev-opera {
+  &:before {
+    content: $webdev-opera; 
+  }
+}
+.webdev-photoshop {
+  &:before {
+    content: $webdev-photoshop; 
+  }
+}
+.webdev-php {
+  &:before {
+    content: $webdev-php; 
+  }
+}
+.webdev-phpstorm {
+  &:before {
+    content: $webdev-phpstorm; 
+  }
+}
+.webdev-preact {
+  &:before {
+    content: $webdev-preact; 
+  }
+}
+.webdev-react {
+  &:before {
+    content: $webdev-react; 
+  }
+}
+.webdev-responsive .path1 {
+  &:before {
+    content: $webdev-responsive-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.webdev-responsive .path2 {
+  &:before {
+    content: $webdev-responsive-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.webdev-responsive .path3 {
+  &:before {
+    content: $webdev-responsive-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.webdev-responsive .path4 {
+  &:before {
+    content: $webdev-responsive-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.webdev-responsive .path5 {
+  &:before {
+    content: $webdev-responsive-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.webdev-responsive .path6 {
+  &:before {
+    content: $webdev-responsive-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.webdev-safari {
+  &:before {
+    content: $webdev-safari; 
+  }
+}
+.webdev-safari1 {
+  &:before {
+    content: $webdev-safari1; 
+  }
+}
+.webdev-sass {
+  &:before {
+    content: $webdev-sass; 
+  }
+}
+.webdev-scrum {
+  &:before {
+    content: $webdev-scrum; 
+  }
+}
+.webdev-semantic-ui {
+  &:before {
+    content: $webdev-semantic-ui; 
+  }
+}
+.webdev-semantic-web {
+  &:before {
+    content: $webdev-semantic-web; 
+  }
+}
+.webdev-seo {
+  &:before {
+    content: $webdev-seo; 
+  }
+}
+.webdev-sketch {
+  &:before {
+    content: $webdev-sketch; 
+  }
+}
+.webdev-slack-plain {
+  &:before {
+    content: $webdev-slack-plain; 
+  }
+}
+.webdev-smashing_magazine {
+  &:before {
+    content: $webdev-smashing_magazine; 
+  }
+}
+.webdev-sourcetree {
+  &:before {
+    content: $webdev-sourcetree; 
+  }
+}
+.webdev-sqllite {
+  &:before {
+    content: $webdev-sqllite; 
+  }
+}
+.webdev-ssh {
+  &:before {
+    content: $webdev-ssh; 
+  }
+}
+.webdev-stackoverflow {
+  &:before {
+    content: $webdev-stackoverflow; 
+  }
+}
+.webdev-sublime {
+  &:before {
+    content: $webdev-sublime; 
+  }
+}
+.webdev-symfony {
+  &:before {
+    content: $webdev-symfony; 
+  }
+}
+.webdev-terminal {
+  &:before {
+    content: $webdev-terminal; 
+  }
+}
+.webdev-travis {
+  &:before {
+    content: $webdev-travis; 
+  }
+}
+.webdev-trello {
+  &:before {
+    content: $webdev-trello; 
+  }
+}
+.webdev-trello1 {
+  &:before {
+    content: $webdev-trello1; 
+  }
+}
+.webdev-twitter {
+  &:before {
+    content: $webdev-twitter; 
+  }
+}
+.webdev-typescript {
+  &:before {
+    content: $webdev-typescript; 
+  }
+}
+.webdev-typo3 {
+  &:before {
+    content: $webdev-typo3; 
+  }
+}
+.webdev-visualstudio {
+  &:before {
+    content: $webdev-visualstudio; 
+  }
+}
+.webdev-vuejs {
+  &:before {
+    content: $webdev-vuejs; 
+  }
+}
+.webdev-vuejs-color .path1 {
+  &:before {
+    content: $webdev-vuejs-color-path1;  
+    color: rgb(53, 73, 94);
+  }
+}
+.webdev-vuejs-color .path2 {
+  &:before {
+    content: $webdev-vuejs-color-path2;  
+    margin-left: -1em;  
+    color: rgb(65, 184, 131);
+  }
+}
+.webdev-w3c {
+  &:before {
+    content: $webdev-w3c; 
+  }
+}
+.webdev-webpack {
+  &:before {
+    content: $webdev-webpack; 
+  }
+}
+.webdev-windows {
+  &:before {
+    content: $webdev-windows; 
+  }
+}
+.webdev-woocommerce {
+  &:before {
+    content: $webdev-woocommerce; 
+  }
+}
+.webdev-wordpress {
+  &:before {
+    content: $webdev-wordpress; 
+  }
+}
+.webdev-xing {
+  &:before {
+    content: $webdev-xing; 
+  }
+}
+.webdev-xml {
+  &:before {
+    content: $webdev-xml; 
+  }
+}
+.webdev-yarn {
+  &:before {
+    content: $webdev-yarn; 
+  }
+}
+.webdev-yeoman {
+  &:before {
+    content: $webdev-yeoman; 
+  }
+}
+
