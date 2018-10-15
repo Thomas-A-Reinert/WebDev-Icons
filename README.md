@@ -113,6 +113,18 @@ Search for an Entry in the "*Window*" or "*Insert*" Menus and select the "*WebDe
 * Add SVG Icon
 * Add SVG Animation Icon
 * Add WCAG / WAI / BITV Icons
+* Add Adobe XD Icon
+* Add Dialogflow Icon
+* Add Actions on Google Icon
+* Add Alexa Skill Icon
+* Add XSL Icon
+* Add Bitrix and Asana Icons
+* Add Rich Snippets and OpenGraph Icons
+* Add RSS/RFD Icons
+* Add JSON Icon
+* Add UX / UI Icons
+* Add Usability Icon
+* Add Voiceapplication Icons / IoT Icons
 * Consider switching from `<i>`-Tags to Classnames only
 * Improve SVGs to include Classnames
 
