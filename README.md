@@ -27,7 +27,7 @@ The naming conventions of *WebDev-Icons* are plain and simple:
 
 * all Icons are prefixed with *`webdev-`*.
 * Look up the Icon names in `/src/PNG` to see the Icons and find out their respective names.
-* Example: You need to embed a "Jira" Icon. Check the above mentioned directory and you´ll find a file named `jira.png`. So the complete name for the icon class would be `webdev-*jira*`
+* Example: You need to embed a "Jira" Icon. Check the above mentioned directory and you´ll find a file named `jira.png`. So the complete name for the icon class would be `webdev-jira*`
 
 ### Using the Icon Font
 * Upload *webdev-icons.css* (/dist/webdev-icons.css) and *fonts* Folder (/dist/fonts) to your Site.
